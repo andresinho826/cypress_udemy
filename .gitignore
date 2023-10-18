@@ -4,6 +4,6 @@ logs
 npm-debug.log*
 package-lock.json
 .vscode/
-cypress/*
+cypress/
 cypress.config.js
 package.json

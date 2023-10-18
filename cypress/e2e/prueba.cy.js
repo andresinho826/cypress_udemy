@@ -1,4 +1,4 @@
-// <reference types="Cypress"/>
+/// <reference types="Cypress"/>
 
 describe("probando google", () => {
     it("buscar palabra", () => {

@@ -3,6 +3,6 @@
 describe("probando google", () => {
     it("buscar palabra", () => {
       cy.visit("https://google.com.co")
-      cy.get("")
+      cy.get("#APjFqb").type("cypress").type('{enter}')
     })
   })

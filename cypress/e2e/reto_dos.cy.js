@@ -4,7 +4,7 @@ require('cypress-xpath')
 
 describe("Segundo reto", () => {
     it("Probando la aplicacion", () => {
-      cy.visit("https://computer-database.gatling.io/computers")
+      cy.visit("http://computer-database.gatling.io/computers")
       cy.title().should('eq', 'Computers database')
       cy.wait(1500)
 

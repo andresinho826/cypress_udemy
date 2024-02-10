@@ -4,7 +4,7 @@
 // require('cypress-plugin-tab')
 
 describe("", () => {
-    it("Assert contains", () => {
+    it.only("Assert contains", () => {
       cy.visit("https://automationpractice.com/index.php")
       cy.title().should('eq','My store')
       cy.wait(1000)
@@ -55,4 +55,21 @@ describe("", () => {
       })
 
     })
+
+    it("Assert contain", () => {
+      cy.visit("https://demoqa.com/text-box")
+      //cy.title().should('eq','ToolsQA')
+      cy.wait(1000)
+
+      //cy.get("#userName").should("be.visible").type("andres")
+      //cy.get("#userEmail").should("be.visible").type("andresinho826@gmail.com")
+      //cy.get("#submit").should("be.visible").click()
+
+      //cy.get("#name").should("have.text", "andres")
+
+    })
+
+
+
+//lastOne
   })
